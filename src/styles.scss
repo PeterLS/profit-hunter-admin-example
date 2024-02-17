@@ -1,0 +1,21 @@
+$blue: #0b1c3c;
+$green: #339977;
+
+@import "bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
+
+$navbar-left-width: 80px;
+
+main {
+  .navbar-vertical {
+    width: $navbar-left-width;
+  }
+
+  .content {
+    margin-left: $navbar-left-width;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
